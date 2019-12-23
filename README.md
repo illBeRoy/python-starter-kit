@@ -1,7 +1,14 @@
 ![python starter kit](./logo.svg)
 > template project for quickly creating python apps
 
-## Includes
+- [Features](#includes)
+- [Getting Started](#getting-started)
+- [Tasks](#tasks)
+  * [Testing](#testing)
+  * [Linting](#linting)
+  * [Publishing](#publishing)
+
+## Features
 * 📦 poetry for package management
 * 🔬 unittest for testing
 * 🦋 pylint for linting
@@ -26,7 +33,7 @@ poetry install
 ```
 
 ## Tasks
-The project contains out of the box tasks for your comfort:
+The project contains out of the box tasks for your comfort. You can see them in the `pyproject.toml` file under the tasks section.
 
 ### Testing
 In order to run all test files, simply run the test task:
