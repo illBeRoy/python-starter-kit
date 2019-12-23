@@ -2,9 +2,9 @@
 import os
 
 def own_project():
-    project_name = input('insert project name (with underscores)')
-    author = input('insert author name')
-    email = input('insert author email')
+    project_name = input('insert project name (with underscores) >> ')
+    author = input('insert author name >> ')
+    email = input('insert author email >> ')
     os.makedirs(project_name)
 
     with open(os.path.join(project_name, '__init__.py'), 'w') as f:
@@ -21,3 +21,8 @@ def own_project():
 
     with open('pyproject.toml', 'w') as f:
         toml_contents = f.write(toml_contents)
+
+    os.remove(__file__)
+
+if __name__ == '__main__':
+    own_project()
