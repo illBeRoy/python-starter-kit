@@ -1,0 +1,7 @@
+{
+  "python.pythonPath": "/Users/roysom/Library/Caches/pypoetry/virtualenvs/python-starter-kit-clxGUWjV-py3.8/bin/python",
+  "editor.tabSize": 4,
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.mypyEnabled": true
+}
