@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os
+import shutil
 
 def own_project():
     project_name = input('insert project name (with underscores) >> ')
@@ -21,6 +22,8 @@ def own_project():
 
     with open('pyproject.toml', 'w') as f:
         toml_contents = f.write(toml_contents)
+
+    shutil.rmtree('.git')
 
     os.remove(__file__)
 
