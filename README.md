@@ -22,7 +22,7 @@
 git clone https://github.com/illBeRoy/python-starter-kit.git <your_project_name>
 ```
 
-2. Run the following command (make sure you have Python ^3.5 installed):
+2. Run the following command (make sure you have Python ^3.6 installed):
 ```bash
 ./own_project.py
 ```
