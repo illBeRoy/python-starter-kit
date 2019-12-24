@@ -5,7 +5,7 @@ description = ""
 authors = ["{{author}} <{{email}}>"]
 
 [tool.poetry.dependencies]
-python = "^3.5"
+python = "^3.6"
 
 [tool.poetry.dev-dependencies]
 pylint = "^2.4.4"
